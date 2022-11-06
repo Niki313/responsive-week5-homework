@@ -13,23 +13,19 @@
         text-align: center!important;
         flex-direction: column!important;
     }
-
     .footer h1{
         font-size: 27px!important;
         margin-bottom: 70px;
         margin: 0px!important;
     }
-
     .footer h5{
         font-size: 16px!important;
-
     }
     .contact-container {
         border: none!important;
         padding: 25px 0 0 0!important;
         margin-top: 20px;
     }
-
     .social-footer{
         padding-top: 10px!important;
     }
@@ -40,16 +36,13 @@
     .social-footer{
         margin: 15px 0!important;
         padding: 0 0!important;  
-
     }
-
     .up-button {
         margin: 0 0!important;
         padding: 0 0!important;
     }
     .up-button i{
         font-size: 27px!important;
-        
     }
     .up-button i:hover{
         font-size: 28px!important;
@@ -62,40 +55,30 @@
         height: 250px!important;
         padding: 50px 15px;
     }
-    
     .footer h1{
         font-size: 47px!important;
         margin-bottom: 0px!important;
-        margin-left: 0px!important;
+        margin-left: 20px!important;
     }
-    
     .footer h5{
         padding: 0 0!important;
         margin: 0 0!important;
-    
     }
-    
     .footer h5{
         font-size: 16px!important;
-
     }
     .contact-container {
         padding: 25px 0 0 0!important;
         margin-top: 20px;
     }
- 
-    
     .social-footer{
         padding-top: 20px;
     }
-    
-    
     .contact-container {
         border: 7px solid var(--fourth-color);
         padding: 90px 50px 30px 50px;
         margin-top: 150px;
     }
-    
     .email-container{
         margin-bottom: 20px;
         padding-left: 30px;
@@ -103,14 +86,12 @@
     .social-footer{
         padding-left: 40px!important;
         margin-bottom: 30px!important;
-    
     }
     .up-button {
         margin-left: 40px!important;
     }
     .up-button i{
         font-size: 27px;
-        
     }
     .up-button i:hover{
         font-size: 28px!important;
@@ -124,22 +105,17 @@
     padding: 50px 0 0 0;
     background-color: var(--fifth-color);
 }
-
 .footer h1{
     display: inline;
     color: var(--second-color);
     font-size: 64px;
     margin-bottom: 70px;
     margin-left: 50px;
-    
 }
-
 .footer h5{
     color: var(--third-color);
     font-size: 27px;
-
 }
-
 .footer i{
     font-size: 27px;
     color: var(--third-color);
@@ -156,19 +132,14 @@
 #my-email:hover{
     color: var(--fourth-color);
 }
-
-
 .social-footer{
     padding-top: 30px;
 }
-
-
 .contact-container {
     border: 7px solid var(--fourth-color);
     padding: 90px 50px 30px 50px;
     margin-top: 150px;
 }
-
 .email-container{
     margin-bottom: 20px;
     padding-left: 40px;
@@ -176,7 +147,6 @@
 .social-footer{
     padding-left: 40px;
     margin-bottom: 30px;
-
 }
 .up-button {
     text-align: right;

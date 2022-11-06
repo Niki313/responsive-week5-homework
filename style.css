@@ -72,8 +72,56 @@
             font-size: 16px!important;
             color: var(--second-color);
         }
-       
 }
+
+ /* for medium screens */
+ @media (min-width:701px) and (max-width:915px){
+
+    .first-screen{
+        height: 500px!important;
+        padding: 30px 30px 0 30px;
+    }
+    
+    .first-screen-content{
+        padding-top: 50px;
+    }
+    .photo-developer img{
+        margin-top: 50px!important;
+        width: 300px;
+    }
+    .second-screen{
+        height: 370px;
+    }
+    .second-screen-header a{
+        font-size: 47px;
+    }
+    .site-container{
+        margin-top: 30px;
+    }
+    .sites{
+        width: 200px;
+        height: 200px;
+    }
+        .third-screen{
+            height: 450px;
+            padding: 30px 30px 0 30px;
+        }
+        .third-screen-image img{
+            width: 200px;
+            margin-left: 15px;
+            margin-top: 50px;
+        }
+        .third-screen-content h1{
+            font-size: 47px;
+            margin-bottom: 30px;
+            margin-left: 15px;
+        }
+        .third-screen-content p{
+            font-size: 18px;
+            margin-left: 15px;
+        }
+}
+
 
 /* for all screens */
 .first-screen{
@@ -203,63 +251,7 @@
 
 
 
-    /* for medium screens */
-@media (min-width:701px) and (max-width:915px){
-
-    .first-screen{
-        height: 500px!important;
-        padding: 30px 30px 0 30px;
-    }
-    
-    .first-screen-content{
-        padding-top: 50px;
-    }
-    .photo-developer img{
-        margin-top: 50px!important;
-        width: 300px;
-    }
-    .second-screen{
-        height: 370px;
-    }
-  
-    .second-screen-header a{
-        font-size: 47px;
-    }
    
-    
-    .site-container{
-        margin-top: 30px;
-    }
-    
-    .sites{
-        width: 200px;
-        height: 200px;
-    }
-
-        .third-screen{
-            height: 450px;
-            padding: 30px 30px 0 30px;
-    
-        }
-        .third-screen-image img{
-            width: 200px;
-            margin-left: 15px;
-            margin-top: 50px;
-        }
-    
-        .third-screen-content h1{
-            font-size: 47px;
-            margin-bottom: 30px;
-            margin-left: 15px;
-        }
-    
-        .third-screen-content p{
-            font-size: 18px;
-            margin-left: 15px;
-        }
-
-
-}
  
   
 
