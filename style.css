@@ -1,0 +1,266 @@
+:root{
+    --first-color:  #5A6275;
+    --second-color: white;
+    --third-color:#7C8394;
+    --fourth-color:#FFA726;
+    --fifth-color:#1E1E1E;
+}
+
+/* for small screens */
+@media (max-width:700px){
+    .first-screen{
+        height: 450px!important;
+        padding: 15px 15px 0 15px!important;
+    }
+    .first-screen-content{
+        padding-top: 0px!important;
+        padding-left: 0px!important;
+        margin: 0 0;
+    }
+    .first-screen-content h3{
+        text-align: center;
+        font-size: 18px!important;
+        margin-left: 5px!important;
+        margin-right: 5px!important;
+        margin-bottom: 15px!important;
+        color: var(--fourth-color)!important;
+    }
+    .first-screen-content p{
+        text-align: left;
+        font-size: 16px!important;
+        color: var(--third-color)!important;
+    }
+    .first-screen-content a{
+        font-size: 16px;
+        color: var(--fourth-color);
+        font-weight: bold;
+        margin-left: 30px;
+        text-decoration: none;
+    }
+    .first-screen-content a:hover{
+        font-size: 17px;
+        color: var(--second-color);
+    }
+    .second-screen{
+        height: 950px!important;
+        margin: 0 0;
+        padding-top: 15px!important;
+    }
+    .second-screen-header a{
+        font-size: 27px!important;
+    }
+    .site-container{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px!important;
+    }
+    .sites{
+        width: 250px!important;
+        height: 250px!important;
+        margin-bottom: 30px;
+    }
+        .third-screen{
+            height: 450px!important;
+            padding: 30px 15px 0 15px!important;
+        }
+        .third-screen-content h1{
+            font-size: 27px!important;
+            margin-bottom: 15px!important;
+        }
+    
+        .third-screen-content p{
+            font-size: 16px!important;
+            color: var(--second-color);
+        }
+       
+}
+
+/* for all screens */
+.first-screen{
+    background-color: var(--first-color);
+    height: 600px;
+    padding: 30px 50px 0 50px;
+}
+.social{
+    text-align: right;
+    padding-top: 300px;
+}
+.social i{
+    font-size: 27px;
+    color: var(--third-color);
+    margin-right: 15px;
+
+}
+.social i:hover{
+    font-size: 28px;
+    color: var(--second-color);
+}
+.first-screen-content{
+    padding-top: 50px;
+}
+.photo-developer img{
+    width: 350px;
+    margin-top: 50px;
+}
+
+.first-screen-content h3{
+    font-size: 27px;
+    color: var(--fourth-color);
+    margin-bottom: 10px;
+    margin-left: 50px;
+    font-weight: bold;
+}
+
+.first-screen-content p{
+    font-size: 18px;
+    color: var(--third-color);
+    margin: 0 30px 30px 50px;
+}
+
+.first-screen-content a{
+    font-size: 18px;
+    color: var(--fourth-color);
+    font-weight: bold;
+    margin-left: 50px;
+    text-decoration: none;
+}
+
+.first-screen-content a:hover{
+    font-size: 19px;
+    color: var(--second-color);
+}
+
+.second-screen{
+    height: 550px;
+    background-color: var(--fifth-color);
+    margin: 0 0;
+    padding-top: 30px;
+}
+.second-screen-header h1{
+
+    text-align: center;
+}
+.second-screen-header a{
+    font-size: 64px;
+    color: var(--fourth-color);
+    text-decoration: none;
+}
+.second-screen-header a:hover{
+    color: var(--second-color);
+}
+
+.site-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+
+
+.sites{
+    width: 260px;
+    height: 260px;
+    background-color: var(--second-color);
+    align-items: center;
+    overflow: hidden;
+}
+
+.sites:hover{
+  border: 7px solid var(--fourth-color);
+  
+}
+
+.sites img{
+    height: auto;
+    width: 100%;
+}
+
+    .third-screen{
+
+        background-color: var(--first-color);
+        height: 600px;
+        padding: 30px 50px 0 50px;
+
+    }
+    .third-screen-image img{
+        width: 280px;
+        margin-left: 30px;
+        margin-top: 100px;
+    }
+
+    .third-screen-content h1{
+        font-size: 64px;
+        color: var(--fourth-color);
+        margin-bottom: 30px;
+        margin-left: 15px;
+    }
+
+    .third-screen-content p{
+        font-size: 27px;
+        color: var(--second-color);
+        margin-left: 25px;
+    }
+
+
+
+    /* for medium screens */
+@media (min-width:701px) and (max-width:915px){
+
+    .first-screen{
+        height: 500px!important;
+        padding: 30px 30px 0 30px;
+    }
+    
+    .first-screen-content{
+        padding-top: 50px;
+    }
+    .photo-developer img{
+        margin-top: 50px!important;
+        width: 300px;
+    }
+    .second-screen{
+        height: 370px;
+    }
+  
+    .second-screen-header a{
+        font-size: 47px;
+    }
+   
+    
+    .site-container{
+        margin-top: 30px;
+    }
+    
+    .sites{
+        width: 200px;
+        height: 200px;
+    }
+
+        .third-screen{
+            height: 450px;
+            padding: 30px 30px 0 30px;
+    
+        }
+        .third-screen-image img{
+            width: 200px;
+            margin-left: 15px;
+            margin-top: 50px;
+        }
+    
+        .third-screen-content h1{
+            font-size: 47px;
+            margin-bottom: 30px;
+            margin-left: 15px;
+        }
+    
+        .third-screen-content p{
+            font-size: 18px;
+            margin-left: 15px;
+        }
+
+
+}
+ 
+  
+
+ 

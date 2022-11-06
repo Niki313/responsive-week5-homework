@@ -1,0 +1,84 @@
+
+
+:root{
+   
+    --first-color:  #5A6275;
+    --second-color: white;
+    --third-color:#7C8394;
+    --fourth-color:#FFA726;
+    --fifth-color:#1E1E1E;
+}
+
+/* for all screens */
+.logo{
+    width: 220px;
+}
+#active-link{
+    color: var(--second-color);
+}
+
+
+
+.navbar-nav a{
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 20px;
+    color: var(--third-color);
+}
+
+.navbar-nav a:hover, #active-link:hover{
+    font-size: 19px;
+    color: var(--fourth-color);
+}
+/* for a small screens */
+@media  (max-width:700px){
+
+    .wrapper{
+        width: 100%;
+        height: auto;
+        margin: 0 0;
+        padding: 0 0;
+    }
+    .wrapper .first-screen{
+        padding: 5px 5px!important;
+        margin: 0 0!important;
+    }
+.logo-container{
+    padding: 0 0;
+    align-items: center;
+    margin: 0 auto;
+}
+.logo-container a{
+    margin: 0 0;
+    padding: 0 0;
+}
+.logo{
+    display: block;
+    width: 150px;
+}
+ #navbarNav{
+    margin: 10px auto;
+ }
+    
+.navbar-nav a{
+    font-size: 16px;
+    margin-right: 15px;
+}
+    
+.navbar-nav a:hover, #active-link:hover{
+    font-size: 17px;
+}
+}
+
+
+/* for medium screens */
+@media (min-width:701px) and (max-width:915px){
+   
+    .navbar-nav a{
+        font-size: 27px!important;
+        margin-right: 20px;
+    }
+    .navbar-nav a:hover, #active-link:hover{
+        font-size: 28px!important;
+    }
+}
