@@ -87,38 +87,39 @@
     }
     .photo-developer img{
         margin-top: 50px!important;
-        width: 280px;
+        width: 330px!important;
     }
     .second-screen{
-        height: 370px;
+        height: 450px!important;
+        padding: 50px 15px!important;
     }
     .second-screen-header a{
-        font-size: 47px;
+        font-size: 47px!important;
     }
     .site-container{
-        margin-top: 30px;
+        margin-top: 30px!important;
     }
     .sites{
-        width: 200px;
-        height: 200px;
+        width: 200px!important;
+        height: 200px!important;
     }
         .third-screen{
-            height: 450px;
-            padding: 30px 30px 0 30px;
+            height: 450px!important;
+            padding: 50px 15px 0 15px;
         }
         .third-screen-image img{
-            width: 200px;
-            margin-left: 15px;
+            width: 200px!important;
+            margin-left: 15px!important;
             margin-top: 50px;
         }
         .third-screen-content h1{
-            font-size: 47px;
-            margin-bottom: 30px;
-            margin-left: 15px;
+            font-size: 47px!important;
+            margin-bottom: 30px!important;
+            margin-left: 15px!important;
         }
         .third-screen-content p{
-            font-size: 18px;
-            margin-left: 15px;
+            font-size: 18px!important;
+            margin-left: 15px!important;
         }
 }
 
